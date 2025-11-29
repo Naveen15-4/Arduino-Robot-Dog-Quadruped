@@ -2,7 +2,7 @@
 
 This project is a design and implementation of a 4-legged (quadruped) robot dog using 3D printed parts and Arduino control. The core of the project involves calculating **Inverse Kinematics (IK)** to map Cartesian coordinates $(x, y)$ in space to specific servo angles for the leg joints.
 
-![Robot Dog Prototype](IMG_ECBDD04C-4A83-49B4-9AE8-58C532E7D616.jpg)
+![Robot Dog Prototype](Demo_Pics/Assembly.jpeg)
 
 ## 🔧 Hardware Specs
 * **Microcontroller:** Arduino Uno / Nano
