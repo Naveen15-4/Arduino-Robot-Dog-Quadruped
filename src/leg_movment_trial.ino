@@ -1,12 +1,4 @@
-/**
- * @file quadruped_master_control.ino
- * @brief Comprehensive Control Firmware for 8-DOF Quadruped Robot.
- * * This file combines Inverse Kinematics (IK) for locomotion, real-time control 
- * via potentiometer, and obstacle avoidance using an ultrasonic sensor (NewPing).
- * * @author [Your Name]
- * @date November 2025
- * @dependencies: Wire, Adafruit_PWMServoDriver, NewPing, math
- */
+
 
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
@@ -214,8 +206,6 @@ void walk() {
     x = x + 1;
   }
   
-  // (Your original code includes a reverse sequence loop, omitted here for brevity 
-  // but included in the final file to maintain functionality)
 }
 
 
@@ -236,9 +226,7 @@ void setup() {
 
 
 void loop() {
-  // Uncomment the control you want to run by default
-  // walk(); 
-  // controlServosWithPotentiometer();
+  
 
   if (Serial.available()) {
     String input = Serial.readString();
